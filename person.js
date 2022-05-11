@@ -30,25 +30,10 @@ class Persona {
      }
 
 
-
  }
-
-
-
-
-
-
-
 
 
  // EXPORTACION
 
  module.exports = {Persona}
-
-
-
-
-
-
-
 
