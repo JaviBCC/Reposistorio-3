@@ -32,7 +32,7 @@ export class Vector {
             let restaElement = new Vector(0, 0);
 
             for (let i = 0; i < this.elements.length; i++) {
-                restaElement.elements.push(myVector.elements[i] + this.elements[i]);
+                restaElement.elements.push(myVector.elements[i] - this.elements[i]);
             }
 
             return restaElement;
@@ -44,7 +44,7 @@ export class Vector {
             let multElement = new Vector(0, 0);
 
             for (let i = 0; i <this.elements.length; i++) {
-                multElement.elements.push(myVector.elements[i] + this.elements[i]);
+                multElement.elements.push(myVector.elements[i] * this.elements[i]);
             }
 
             return multElement;
