@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var contact_1 = require("./contact");
+var person_1 = require("./person");
+var contact1 = new contact_1.Contacts();
+var Manolo = new person_1.Person("Manolo", 25, "Calle rodolfo valentino");
+var Juanito = new person_1.Person("Juanito", 38, "Calle salcdeo");
+var Menganito = new person_1.Person("Menganito", 50, "Calle del olvido");
+contact1.people = [Manolo, Juanito, Menganito];
+contact1.printCalendar();
